@@ -35,7 +35,7 @@ public class CcbCrossConstant
 	public static final String USER_NAME = "WLPT07"; //外联操作员
 	public static final String FUNCID = "330000004"; //功能id
 	public static final String DEPT_CODE = "08001"; //网易宝单位编码
-	public static final String TRADE_ROAD = "1";//交易渠道：外联
+	public static final String TRADE_ROAD = "2";//交易渠道：外联
 
 	//业务类型
 	public static final String TRADE_ATTR_GH = "GH";//购汇
@@ -84,7 +84,6 @@ public class CcbCrossConstant
 	{
 		LIST_USER_ERROR_CODE.add("8330ZX209999");//客户编号不存在,卡档记录不存在,余额不足
 		LIST_USER_ERROR_CODE.add("81001");//身份校验错误
-		LIST_USER_ERROR_CODE.add("81002");//姓名校验错误
 		LIST_USER_ERROR_CODE.add("81003");//手机号校验错误
 		LIST_USER_ERROR_CODE.add("41001");//账户状态异常
 		LIST_USER_ERROR_CODE.add("42001");//该账户尚未通过验证,该账户未签约
@@ -113,6 +112,6 @@ public class CcbCrossConstant
 	public static final String LOCAL_REMOTE = "1"; //0-网银文件服务器，1-网银后端系统
 	public static final String UPFILEPATH = "330000000";//浙江建行
 	public static final String KEEP_FILENAME = "1";//0或空-系统重新命名，1-保持原文件名
-
+	public static final String KEEP_FILENAME2 = "1";//1-保持原文件名
 
 }
