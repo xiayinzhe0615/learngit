@@ -36,6 +36,11 @@ public class CcbCrossConstant
 	public static final String FUNCID = "330000004"; //功能id
 	public static final String DEPT_CODE = "08001"; //网易宝单位编码
 	public static final String TRADE_ROAD = "2";//交易渠道：外联
+	public static final String OPERATER_GRADE = "3";//操作员级别
+	public static final String USER_NAME = "WLPT07"; //外联操作员
+	public static final String FUNCID = "330000004"; //功能id
+	public static final String DEPT_CODE = "08001"; //网易宝单位编码
+	public static final String TRADE_ROAD = "2";//交易渠道：外联
 
 	//业务类型
 	public static final String TRADE_ATTR_GH = "GH";//购汇
@@ -66,7 +71,7 @@ public class CcbCrossConstant
 	public static final String DEFAULT_COUNTERNO_VALUE = "330000000";
 	public static final String ERROR_CODE_UNSIGN = "42001";
 	public static final Map<String, String> MAP_NETEASE_CODE = new HashMap<String, String>();
-	public static final Map<String, String> MAP_NETEASE_MSG = new HashMap<String, String>();
-	public static final List<String> LIST_USER_ERROR_CODE = new ArrayList<String>();
+	public static final Map<String, String> MAP_NETEASE_MSG1 = new HashMap<String, String>();
+	public static final List<String> LIST_USER_ERRO
 
 }
