@@ -9,12 +9,19 @@ import java.util.Map;
 public class CcbCrossConstant
 {
 
-
 	public static final String ACTION_CROSS_PURCHASING = "purchasing";
 	public static final String ACTION_CROSS_PAYMENT = "payment";
-	public static fi
-	public static final String LANGUAGE = "CN"; //语言
+	public static final String ACTION_BATCH_STATE_QUERY = "queryState";
+	public static final String ACTION_SINGLE_OUT_QUERY = "singleOutQuery";
+	public static final String ACTION_REPORT_REDUCTION = "reportReduction";
 
+	public static final String CUSTOM_ID = "P3301001702180#1V"; //网银客户号
+	public static final String USER_ID = "WLPT07"; //外联操作员
+	public static final String PASSWORD = "111111"; //操作员密码
+	public static final String TXCODE_CROSS_PAY = "6W5004"; //跨境支付交易码
+	public static final String TXCODE_FILE_UPLOAD = "6W0112"; //文件上传操作码
+	public static final String TXCODE_FILE_DOWNLOAD = "6W0111"; //文件下载操作码
+	public static final String LANGUAGE = "CN"; //语言
 
 	//子交易码
 	public static final String SUBTX_CROSS_PURCHASING = "TP2001"; //购结汇
@@ -26,10 +33,11 @@ public class CcbCrossConstant
 
 	public static final String OPERATER_GRADE = "3";//操作员级别
 	public static final String USER_NAME = "WLPT07"; //外联操作员
-	public static final String FUNCID = "33000000//网易宝单位编码
+	public static final String FUNCID = "330000004"; //功能id
+	public static final String DEPT_CODE = "08001"; //网易宝单位编码
 	public static final String TRADE_ROAD = "2";//交易渠道：外联
 	public static final String OPERATER_GRADE = "3";//操作员级别
-	public static final String USER_NAME = "WLPT07"; //外联操sdadfas、作员
+	public static final String USER_NAME = "WLPT07"; //外联操作员
 	public static final String FUNCID = "330000004"; //功能id
 	public static final String DEPT_CODE = "08001"; //网易宝单位编码
 	public static final String TRADE_ROAD = "2";//交易渠道：外联
@@ -38,19 +46,11 @@ public class CcbCrossConstant
 	public static final String TRADE_ATTR_GH = "GH";//购汇
 	public static final String TRADE_ATTR_JH = "JH";//结汇
 	public static final String TRADE_ATTR_HC = "HC";//汇出
-	//业务类型
-	public static final String TRADE_ATTR_GH = "GH";//购汇
-	public static final String TRADE_ATTR_JH = "JH";//结汇
-	public static final String TRADE_ATTR_HC = "HC";//汇出
-	//客户类型是滴是滴
+	//客户类型
 	public static final String TRADE_FLAG_PERSONAL = "01";//个人客户
 	public static final String TRADE_FLAG_ORGANIZATION = "02";//机构客户
 
 	public static final String PROGRESSFLAG = "0";//处理标志
-blic static final String TRADE_ATTR_HC = "HC";//汇出
-	//客户类型
-	public static final String TRADE_FLAG_PERSONAL = "01";//个人客户
-	public static final String TRADE_FLAG_ORGANIZATION = "02";//机构客户
 
 	public static final String TRADE_CODE = "122030";//未纳入海关统计的网络购物
 
